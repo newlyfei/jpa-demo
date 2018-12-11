@@ -1,1 +1,1 @@
-基于XML配置方式eclipselink JPA配置实例
+基于XML方式，eclipselink JPA配置实例
