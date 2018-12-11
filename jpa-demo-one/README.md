@@ -1,0 +1,1 @@
+基于JavaConfig的Hibernate JPA配置实例

@@ -1,0 +1,1 @@
+基于XML配置方式eclipselink JPA配置实例
