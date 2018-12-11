@@ -1,0 +1,1 @@
+基于XML方式，hibernate JPA配置实例

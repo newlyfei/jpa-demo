@@ -23,6 +23,15 @@
                 <property name="generateDdl" value="false" />
             </bean>
         </property>
+
+        <!--
+        eclipse.weaving; 禁用所有编织
+        eclipselink.weaving.lazy; 禁止编织延迟加载（间接）
+        eclipselink.weaving.changetracking; 禁用编织以进行更改跟踪
+        eclipselink.weaving.fetchgroups; 禁用针对提取组的编织
+        eclipselink.weaving.internal; 禁用编织以进行内部优化
+        eclipselink.weaving.eager; 禁止在渴望关系上进行间接编织
+         -->
         <property name="jpaPropertyMap">
             <map>
                 <entry key="eclipselink.weaving" value="false" />
